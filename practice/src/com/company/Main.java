@@ -14,6 +14,8 @@ public class Main {
         switch (operation){
             case '+' :
                 System.out.println(input1 + input2);
+            case '-' :
+                System.out.println(input1 - input2);
         }
     }
 }
