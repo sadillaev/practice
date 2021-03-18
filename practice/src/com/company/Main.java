@@ -11,5 +11,9 @@ public class Main {
         int input2 = scanner.nextInt();
         char operation = scanner.next().charAt(0);
         System.out.println("Eki san jazynyz");
+        switch (operation){
+            case '+' :
+                System.out.println(input1 + input2);
+        }
     }
 }
